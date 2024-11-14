@@ -3,11 +3,12 @@
 1. [Create env and install pyspark and jupyter lab](#schema1)
 2. [Dataset](#schema2)
 3. [Data loading  and Calculating basic statistics](#schema3)
+4. [Data Cleaning](#schema4)
+5. [Exploratory Data Analysis (EDA)](#schema5)
+6. [Engineering Characteristics ](#schema6)
 
 
-4. [Exploratory Data Analysis (EDA)](#schema4)
-5. [Clustering with MLlib in PySpark (K-means)](#schema5)
-6. [Conclusion](#schema6)
+
 7. [Resources](#schemaref)
 
 <hr>
@@ -31,6 +32,12 @@ pip install findspark
 
 pip install jupyterlab
 ```
+4. Install matplotlib and searborn
+```
+pip install matplotlib seaborn
+```
+
+
 <hr>
 <a name='schema2'></a>
 
@@ -67,11 +74,37 @@ pip install jupyterlab
 - Analyze the null values, clean data with nulls
 
 
+<hr>
+<a name='schema4'></a>
+
 ## 4.  Data cleaning
 - Clean and Standardize release_date
     - Extract day and month of "date_format
     - Combine year,day, month
     - Convert date_combined to yyyy-MM-dd format
+- Null value analysis
+- Remove Irrelevant Columns
+ 
+
+<hr>
+<a name='schema5'></a>
+
+## 5. Exploratory Data Analysis (EDA)
+
+- Descriptive Statistics
+- Data Visualization with Matplotlib and Seaborn
+- Correlation Map
+
+
+<hr>
+<a name='schema6'></a>
+
+## 6. Engineering Characteristics 
+- Creation of New Variables Based on Categories
+    - Classify Tempo: Divide the tempo into categories such as slow, moderate and fast.
+    - Classify Duration: Group songs by duration, such as short, medium or long.
+- Scaling and Normalization of Numerical Characteristics
+
 
 
 <hr>
