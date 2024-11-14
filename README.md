@@ -2,7 +2,9 @@
 
 1. [Create env and install pyspark and jupyter lab](#schema1)
 2. [Dataset](#schema2)
-3. [ Data loading and cleaning](#schema3)
+3. [Data loading  and Calculating basic statistics](#schema3)
+
+
 4. [Exploratory Data Analysis (EDA)](#schema4)
 5. [Clustering with MLlib in PySpark (K-means)](#schema5)
 6. [Conclusion](#schema6)
@@ -55,6 +57,21 @@ pip install jupyterlab
 - explicit: int, indication of explicit content presence (explicit or implicit).
 
 
+<hr>
+<a name='schema3'></a>
+
+## 3. Data loading  and Calculating basic statistics
+- We load the dataset, with `df_schema`
+- Row Counting and Unique Values
+- We calculate the basic statistics.
+- Analyze the null values, clean data with nulls
+
+
+## 4.  Data cleaning
+- Clean and Standardize release_date
+    - Extract day and month of "date_format
+    - Combine year,day, month
+    - Convert date_combined to yyyy-MM-dd format
 
 
 <hr>
