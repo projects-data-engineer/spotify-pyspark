@@ -6,10 +6,11 @@
 4. [Data Cleaning](#schema4)
 5. [Exploratory Data Analysis (EDA)](#schema5)
 6. [Engineering Characteristics ](#schema6)
+7. [Key issues to deepen Big Data analysis](#schema7)
 
 
 
-7. [Resources](#schemaref)
+8. [Resources](#schemaref)
 
 <hr>
 <a name='schema1'></a>
@@ -105,6 +106,15 @@ pip install matplotlib seaborn
     - Classify Duration: Group songs by duration, such as short, medium or long.
 - Scaling and Normalization of Numerical Characteristics
 
+<hr>
+<a name='schema7'></a>
+
+## 7. Key issues to deepen Big Data analysis
+
+- What is the average length of the most popular songs (e.g., top 10% popularity)?
+- Can we observe any trends in popularity or other characteristics according to the year of release?
+- What clusters of songs are formed according to 'tempo', 'valence', and 'danceability'.?
+- Which artists have the highest proportion of popular songs with high 'danceability'?
 
 
 <hr>
