@@ -112,10 +112,13 @@ pip install matplotlib seaborn
 ## 7. Key issues to deepen Big Data analysis
 
 - What is the average length of the most popular songs (e.g., top 10% popularity)?
+![Popularity](./img/popularity.jpg)
 - Can we observe any trends in popularity or other characteristics according to the year of release?
+![Trend](./img/trend.jpg)
 - What clusters of songs are formed according to 'tempo', 'valence', and 'danceability'.?
+![Tempo and Valence](./img/tempo.jpg)
 - Which artists have the highest proportion of popular songs with high 'danceability'?
-
+![Dance](./img/dance.jpg)
 
 <hr>
 <a name='schemaref'></a>
